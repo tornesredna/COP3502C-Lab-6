@@ -31,7 +31,7 @@ while menu_input != 3:
         print("Your password has been encoded and stored!\n")
 
     if menu_input == 2:
-        print("The encoded password is", encode(password_input), ", and the original password is", password_input)
+        print("The encoded password is " + encode(password_input) + ", and the original password is " + password_input + ".\n")
 
     if menu_input == 3:
         break
